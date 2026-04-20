@@ -102,8 +102,22 @@ nav {
 }
 
 #toparea .toptext {
-    color: green;
+    color: brown;
     margin: 0px;
     padding-left: 400px;
     font-size: 400%;
+}
+
+/* I have added */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    body {
+        background-color: red;
+
+
+    }
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
